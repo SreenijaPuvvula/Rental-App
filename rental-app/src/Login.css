@@ -1,0 +1,50 @@
+body{
+    font-size: 1rem;
+}
+.loginForm,.sellerForm{
+    background-color: rgb(245, 245, 245);
+    margin: 1rem auto;
+    display: block;
+    border: 1px solid rgb(151, 150, 150);
+    margin: 1rem auto;
+    position: absolute;
+    padding: 0 3rem;
+    left : 0;
+    right : 0;
+    width : 400px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 1px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.sellerForm{
+    width: 500px;
+}
+.loginForm h1,.sellerForm h1{
+    color: #003454;
+}
+.loginForm *,.sellerForm *{
+    margin:1rem;
+}
+.loginForm label,.sellerForm label{
+    color: #6e4cb7;
+    font-weight: 900;
+}
+.loginForm input,select{
+    padding: 0.8rem 5rem;
+    margin: 1rem;
+    border: 1px solid rgb(151, 150, 150);
+}
+.sellerForm input,select{
+    padding: 0.8rem 5rem;
+    margin: 1rem;
+    border: 1px solid rgb(151, 150, 150);
+}
+select{
+    padding: 0.8rem 7rem;
+}
+
+.loginForm button,.sellerForm button{
+    background-color:#62a5ac;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    margin: 1rem;
+    border: none;
+}

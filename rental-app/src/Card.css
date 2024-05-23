@@ -1,0 +1,27 @@
+
+.logo{
+    background-color: #003454;
+    color: white;
+    padding: 2rem;
+    margin: 0;
+    font-size: 50px;
+}
+.cardHolder{
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin: 1rem;
+    padding: 1.5rem;
+}
+.card div{
+    margin: 10px;
+}
+.labelName{
+    color : #6e4cb7;
+}
+.labelAnswer{
+    margin-left: 2rem;
+}
